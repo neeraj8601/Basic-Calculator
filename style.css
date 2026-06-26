@@ -1,21 +1,19 @@
 .marquee{
     font-size: 30px;
-    top: 5px;
     background-color: rgb(239, 112, 21);
     color: white;
-    direction:left;
     padding: 10px;
+    margin-top: 10px;
 }
 body{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 10px;
-    padding: 10px;
-}
+    margin: 0px;
+    padding: 0px;
+    }
 .heading{
     text-align: center;
+    font-size: 30px;
 }
+
 .outer-container{
     border: 1px solid rgb(76, 5, 240);
     margin: 50px;
@@ -26,6 +24,7 @@ body{
     width: 250px;
     border-radius: 10px;
     border: none;
+    
 }
 .calculator-part{
     border: 1px solid rgb(76, 5, 240);
